@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200;800&display=swap);
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/bg-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+* {
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+}
+
+.container .white-box {
+  background-color: white;
+  width: 36em;
+  border-radius: 1em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.container .logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10em;
+  margin-bottom: 10%;
+  background-image: url("../images/pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: column;
+}
+.container .main-h1 {
+  color: hsl(227deg, 35%, 25%);
+  margin: 0;
+}
+.container p {
+  color: hsl(225deg, 20%, 60%);
+  font-weight: 700;
+}
+.container .pageviews {
+  letter-spacing: 0.1em;
+  font-size: 14px;
+}
+.container .card-cont .price-pageviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 5em;
+  width: 80%;
+}
+.container .card-cont .price-pageviews .price-month {
+  display: flex;
+  align-items: center;
+}
+.container .card-cont .price-pageviews .price-month .usd-price {
+  margin: 0;
+  color: hsl(227deg, 35%, 25%);
+  font-size: 35px;
+}
+.container .options {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 1em;
+  height: 0.6em;
+  background-color: hsl(174deg, 86%, 45%);
+  opacity: 50%;
+}
+.container .options .option {
+  width: 20%;
+}
+.container .pointer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5em;
+  width: 7%;
+  opacity: 100%;
+  border-radius: 2em;
+  position: relative;
+  z-index: 1;
+  left: 10%;
+  top: 24px;
+  background-color: hsl(174deg, 86%, 45%);
+}
+.container .pointer:active {
+  background-color: hsl(174deg, 90%, 45%);
+}
+.container .pointer:hover {
+  cursor: pointer;
+}
+.container .pointer .drag-icons {
+  position: relative;
+  z-index: -1;
+}
+.container .monthly-billing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  gap: 2%;
+  width: 100%;
+  box-shadow: 0 0.1rem 0.125rem -0.1em hsl(223deg, 50%, 87%);
+}
+.container .monthly-billing p {
+  font-size: 14px;
+  color: hsl(225deg, 20%, 60%);
+}
+.container .monthly-billing .discount {
+  background-color: hsl(14deg, 92%, 95%);
+  color: hsl(15deg, 100%, 70%);
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 0.3em;
+}
+.container .trial {
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  justify-content: space-around;
+}
+.container .trial div {
+  width: 30%;
+}
+.container .trial p {
+  font-size: 14px;
+}
+.container .trial p .check-mark {
+  padding-right: 5%;
+}
+.container .trial button {
+  color: white;
+  background-color: hsl(227deg, 35%, 25%);
+  height: 3em;
+  width: 14em;
+  border-radius: 1.5em;
+  border: none;
+  align-self: center;
+}
+.container .trial button:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=App.css.map */
