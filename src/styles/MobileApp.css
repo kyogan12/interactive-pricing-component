@@ -1,3 +1,78 @@
-
+@media screen and (max-width: 414px) {
+  body {
+    position: relative;
+    min-height: 100vh;
+    min-width: 100%;
+    background-size: 200vh;
+  }
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .container .main-h1 {
+    font-size: 22px;
+  }
+  .container p {
+    font-size: 14px;
+    width: 14em;
+    text-align: center;
+  }
+  .container .logo-container {
+    position: absolute;
+    bottom: 12em;
+    width: 24em;
+  }
+  .container .white-box {
+    position: absolute;
+    bottom: -330px;
+    height: 30em;
+    width: 24em;
+  }
+  .container .monthly-billing {
+    position: absolute;
+    top: 30%;
+    right: 6%;
+    width: 22em;
+  }
+  .container .monthly-billing p {
+    font-size: 12px;
+  }
+  .container .trial p {
+    position: relative;
+    top: 130%;
+    right: 40%;
+  }
+  .container .discount {
+    height: 1.5em;
+    width: 3.5em;
+    overflow: hidden;
+  }
+  .container .card-cont .price-pageviews {
+    justify-content: center;
+  }
+  .container .card-cont .price-pageviews .month {
+    margin-left: 10%;
+  }
+  .container .card-cont .price-pageviews .pageviews {
+    position: absolute;
+    left: 25%;
+    top: 3%;
+  }
+  .container .card-cont .price-pageviews .price-month {
+    position: absolute;
+    width: 30%;
+    top: 22.5%;
+  }
+  .container input[type=range] {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
+  .container .trial button {
+    position: absolute;
+    bottom: 10%;
+  }
+}
 
 /*# sourceMappingURL=MobileApp.css.map */

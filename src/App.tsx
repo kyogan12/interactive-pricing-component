@@ -2,6 +2,7 @@ import { Switch } from "@mui/material";
 import { OptionCard } from "./components/OptionCard";
 import checkMark from "./images/icon-check.svg";
 import "./styles/App.css";
+import "./styles/MobileApp.css";
 
 const App: React.FC = () => {
   return (
